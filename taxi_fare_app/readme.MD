@@ -131,34 +131,21 @@ Now you are going to deploy the app to the Cloud using Google App Engine.
 
 **Note**: If you already have the Cloud SDK installed, update it by running the following command `gcloud components update`
 
-**2. Create a new project**
-
-```
-gcloud projects create [YOUR_PROJECT_ID] --set-as-default
-```
-
-Verify the project was created with:
-```
-gcloud projects describe [YOUR_PROJECT_ID]
-```
-
-**3. Initialize your App Engine app with your project and choose its region**
+**2. Initialize a new App Engine app with your project and choose its region**
 
 ```
 gcloud app create --project=[YOUR_PROJECT_ID] --region=europe-west
 ```
 
-**4. Make sure billing is enabled for your project**. 
+`[YOUR_PROJECT_ID]` is the id of the GCP project you created to train your model on AI Platform.
 
-A billing account needs to be linked to your project in order for the application to be deployed to App Engine. [Enable Billing](https://console.cloud.google.com/projectselector/billing?lang=python3&st=true)
-
-**5. Install the gcloud component that includes the App Engine extension for Python 3.7**
+**3. Install the gcloud component that includes the App Engine extension for Python 3.7**
 
 ```
 gcloud components install app-engine-python
 ```
 
-**6. Create a new file `app.yaml` and add the following configuration code**
+**4. Create a new file `app.yaml` and add the following configuration code**
 
 ```yaml
 runtime: python37
@@ -175,13 +162,13 @@ credentials.json
 _Note: To learn more about `app.yaml` please refer to this [doc](https://cloud.google.com/appengine/docs/standard/python3/config/appref)._
 
 
-**8. Deploy the app**
+**5. Deploy the app**
 
 ```
 gcloud app deploy
 ```
 
-**9. Launch your browser to view the app at [https://YOUR_PROJECT_ID.appspot.com](https://YOUR_PROJECT_ID.r.appspot.com)**
+**6. Launch your browser to view the app at [https://YOUR_PROJECT_ID.appspot.com](https://YOUR_PROJECT_ID.r.appspot.com)**
 
 You can use `gcloud app browse` to directly view the app in your browser.
 
@@ -189,6 +176,6 @@ Then play with it by requesting taxi fare estimates
 
 [https://YOUR_PROJECT_ID.appspot.com/predict_fare?passenger_count=3&dropoff_location=40,-74.3&pickup_location=40,-74]()
 
-**10. Go further**
+**7. Go further**
 
 If you want to go further, you can also build an html page with a form to ask for pickup, dropoff locations, passengers count and pickup datetime.
