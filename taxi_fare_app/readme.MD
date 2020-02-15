@@ -1,7 +1,7 @@
 # Taxi Fare Prediction Model as an API
 
 ## Summary
-The goal of this tutorial is to show you how to make your [Taxi Fare Prediction]([https://www.kaggle.com/c/new-york-city-taxi-fare-prediction](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction)) Model available as a public endpoint. At the end of this tutorial, you should have a running web application endpoint that lets you estimate a NYC taxi fare based on pickup and drop-off locations.
+The goal of this tutorial is to show you how to make your [Kaggle Taxi Fare Prediction Model]([https://www.kaggle.com/c/new-york-city-taxi-fare-prediction](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction)) available as a public endpoint. At the end of this tutorial, you should have a running web application endpoint that lets you estimate a NYC taxi fare based on pickup and drop-off locations.
 
 See a live example [here](https://taxi-fare-api-wagon.appspot.com/predict_fare).
 
