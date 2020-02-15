@@ -187,7 +187,7 @@ You can use `gcloud app browse` to directly view the app in your browser.
 
 Then play with it by requesting taxi fare estimates
 
-[https://YOUR_PROJECT_ID.r.appspot.com/predict_fare?passenger_count=3&dropoff_location=40,-74.3&pickup_location=40,-74]()
+[https://YOUR_PROJECT_ID.appspot.com/predict_fare?passenger_count=3&dropoff_location=40,-74.3&pickup_location=40,-74]()
 
 **10. Go further**
 

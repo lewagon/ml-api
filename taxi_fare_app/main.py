@@ -6,9 +6,10 @@ import pytz
 
 app = Flask(__name__)
 
-PROJECT_ID="wagon-bootcamp-256007"
-MODEL = "taxi_fare_prediction_model"
-VERSION = "pipeline_v7"
+PROJECT_ID="<your_project_id>"
+MODEL = "<your_model_name>"
+VERSION = "<your_model_version>"
+
 NYC_DEFAULT_LOC = "40.7808,-73.9772"
 
 def predict_json(project, model, instances, version=None):
