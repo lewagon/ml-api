@@ -101,6 +101,7 @@ def predict_fare():
     "dropoff_longitude": float(dropoff_location[1]),
     "passenger_count": float(passenger_count),
     "pickup_datetime": str(pickup_datetime),
+    "key": str(pickup_datetime),
   }
   results = predict_json(project=PROJECT_ID,
                          model=MODEL,
