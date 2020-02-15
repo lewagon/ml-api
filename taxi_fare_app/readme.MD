@@ -125,7 +125,7 @@ http://127.0.0.1:8080/predict_fare?passenger_count=3&dropoff_location=40,-74.3&p
 
 ## Deploy your app to Google Cloud
 
-Now you are going to deploy the app to the Cloud using Google App Engine.
+Now you are going to deploy the app to the Cloud using [Google App Engine](https://cloud.google.com/appengine).
 
 **1. Download and install [GCloud SDK](https://cloud.google.com/sdk/docs/).**
 
