@@ -74,9 +74,9 @@ from datetime import datetime
 import pytz
 import googleapiclient.discovery
 
-PROJECT_ID="wagon-bootcamp-256007"
-MODEL = "taxi_fare_prediction_model"
-VERSION = "pipeline_v9"
+PROJECT_ID="<your_project_id>"
+MODEL = "<your_model_name>"
+VERSION = "<your_model_version>"
 NYC_DEFAULT_LOC = "40.7808,-73.9772"
 
 def predict_json(project, model, instances, version=None):
