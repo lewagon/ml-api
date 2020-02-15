@@ -123,7 +123,7 @@ Example
 
 http://127.0.0.1:8080/predict_fare?passenger_count=3&dropoff_location=40,-74.3&pickup_location=40,-74 
 
-## Deploy you app to Google Cloud
+## Deploy your app to Google Cloud
 
 Now you are going to deploy the app to the Cloud using Google App Engine.
 
