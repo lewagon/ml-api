@@ -3,7 +3,7 @@
 ## Summary
 The goal of this tutorial is to show you how to make your [Kaggle Taxi Fare Prediction Model](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction) available as a public endpoint. At the end of this tutorial, you should have a running web application endpoint that lets you estimate a NYC taxi fare based on pickup and drop-off locations.
 
-See a live example [here](https://taxi-fare-api-wagon.appspot.com/predict_fare).
+See a live example [here](https://taxi-fare-api-wagon.appspot.com/predict_fare?passenger_count=3&dropoff_location=40,-74.3&pickup_location=40,-74).
 
 ### What you should already have
 - A Google Cloud Platform (GCP) account
