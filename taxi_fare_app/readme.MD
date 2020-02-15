@@ -1,4 +1,4 @@
-# Taxi Fare Prediction Model as an API
+# NYC Taxi Fare Prediction Model as an API
 
 <img src="https://storage.googleapis.com/kaggle-competitions/kaggle/10170/logos/header.png">
 
